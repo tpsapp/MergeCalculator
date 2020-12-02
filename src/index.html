@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Merge Game Calculator</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <header>
+        <h1>Merge Game Calculator</h1>
+        <p>This calculator will figure out how many items you need to make to get to a certain amount of a higher level item.</p>
+    </header>
+    <main>
+        <content>
+            <form action="" id="frmCalculator">
+                <fieldset>
+                    <label for="inpMergeCount">How many items needed for merge?</label>
+                    <input type="number" name="inpMergeCount" id="inpMergeCount" min="2" value="2">
+                </fieldset>
+                <fieldset>
+                    <label for="inpMergeReward">How many items are created per merge?</label>
+                    <input type="number" name="inpMergeReward" id="inpMergeReward" min="1" value="1">
+                </fieldset>
+                <fieldset>
+                    <label for="inpStartLevel">What level are the items to merge?</label>
+                    <input type="number" name="inpStartlevel" id="inpStartLevel" min="1" value="1">
+                </fieldset>
+                <fieldset>
+                    <label for="inpRewardLevel">What level are the items you want to create?</label>
+                    <input type="number" name="inpRewardLevel" id="inpRewardLevel" min="1" value="1">
+                </fieldset>
+                <fieldset>
+                    <label for="inpRewardCount">How many items do you want to create?</label>
+                    <input type="number" name="inpRewardCount" id="inpRewardCount" min="1" value="1">
+                </fieldset>
+                <fieldset>
+                    <label for="inpResult">Amount you need to create:</label>
+                    <input type="number" name="inpResult" id="inpResult" value="0" readonly>
+                </fieldset>
+                <input type="submit" value="Submit">
+                <input type="reset" value="Clear">
+            </form>
+        </content>
+    </main>
+
+    <footer>
+        The code for this page can be found on <a href="https://github.com/tpsapp/MergeCalculator">GitHub</a>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
