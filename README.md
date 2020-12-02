@@ -5,4 +5,4 @@ This can be used for games like Merge Magic, Top War, or Merge Dragons.
 
 The formlua used is as follows:
 
-$ $(desiredItemlevel - currentItemLevel)^numberOfItemsToMerge$ * $(numberOfItemsToCreate / itemsCreatedPerMerge)$ $
+(desiredItemlevel - currentItemLevel)^numberOfItemsToMerge * (numberOfItemsToCreate / itemsCreatedPerMerge)
