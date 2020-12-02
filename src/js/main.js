@@ -14,7 +14,7 @@ calcElem.addEventListener('submit', (e) => {
     var rewardLevel = rewardLevelElem.value;
     var rewardCount = rewardCountElem.value;
 
-    var result = Math.pow((rewardLevel - startLevel), mergeCount) * (rewardCount / mergeReward);
+    var result = Math.pow(mergeCount, rewardLevel - startLevel) * (rewardCount / mergeReward);
 
     resultElem.value = result;
     e.preventDefault();
