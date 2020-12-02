@@ -24,6 +24,8 @@ form {
 
 fieldset {
     border: none;
+    display: flex;
+    flex-direction: column;
 }
 
 footer {
