@@ -1,26 +1,8 @@
-# WeightConverter
+# Merge Calculator
 
-This is a site to allow you to convert pounds to other common weights.
+This is a site to allow you to calculate how many items of a specific level you need to create in order to make enough of the specified level items.
+This can be used for games like Merge Magic, Top War, or Merge Dragons.
 
-The main.js has comments for what each function does but below is a list of each class and what it's functions are for.
+The formlua used is as follows:
 
-Live Demo: https://www.thomassapp.com/WeightConverter
-
-## Classes
-
-### UI Class
-
-Provides helper functions for accessing and controlling the UI.
-
-* UI.initialize = Initializes the controls on the UI to their default values.
-* UI.convertWeight = Converts the inputed number of pounds to the various other weight measurements.
-
-## Events
-
-* Initalize UI
-
-    document.addEventListener('DOMContentLoaded', UI.initalize);
-
-* Display weight conversions
-
-    document.querySelector('#weightInput').addEventListener('input', UI.convertWeight);
+$ $(desiredItemlevel - currentItemLevel)^numberOfItemsToMerge$ * $(numberOfItemsToCreate / itemsCreatedPerMerge)$ $
