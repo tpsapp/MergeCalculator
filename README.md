@@ -6,3 +6,5 @@ This can be used for games like Merge Magic, Top War, or Merge Dragons.
 The formlua used is as follows:
 
 (numberOfItemsToMerge^(desiredItemlevel - currentItemLevel)) * (numberOfItemsToCreate / itemsCreatedPerMerge)
+
+A working version of this site can be found at https://www.thomassapp.com/MergeCalculator

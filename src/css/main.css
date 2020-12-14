@@ -37,3 +37,22 @@ footer {
     text-align: center;
     color: white;
 }
+
+@media only screen and (max-width: 540px) {
+    header {
+        padding: 5px;
+    }
+
+    main {
+        margin: 20px;
+        padding: 5px;
+    }
+
+    form {
+        grid-template-columns: 1fr;
+    }
+
+    footer {
+        padding: 25px 5px;
+    }
+}
